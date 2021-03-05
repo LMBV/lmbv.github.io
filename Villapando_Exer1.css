@@ -4,14 +4,22 @@ body {
 }
 
 #main {
+	/*background-color: rgba(255, 255, 255, 0.5);*/
+	background-color: #a9d6e511;
+	padding : 15px;
+	margin: 15px;
+}
+
+#content_background {
 	background-color: rgba(255, 255, 255, 0.5);
-	margin: 10px;
+	/*background-color: #a9d6e5;*/
 	padding : 15px;
 }
 
 #banner {
-	padding: 1px;
-	background-color: #FFFFFF;
+	padding: 50px;
+	background-color: #012a4a;
+	/*background-image: linear-gradient(to bottom right, #c77dff, white);*/
 }
 
 .table {
@@ -20,11 +28,47 @@ body {
 	padding-right: 20px;
 }
 
+
 .label {
+	border-radius: 10px 10px 0px 0px;
+	box-shadow: 10px 10px #888888;
+	background-color: #2c7da0;
+	padding : 1px;
+	width: 50%;
+	margin: auto;
+	margin-top: 25px;
+}
+
+.label_text {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.answer {
+	border-radius: 0px 0px 10px 10px;
+	box-shadow: 10px 10px #888888;
+	background-color: #FFFFFF;
+	padding : 1px;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+.answer_text {
+	font-size: 25px;
+	margin: auto;
+	text-align: center;
+	padding: 30px;
+}
+
+
+/*.label {
 	padding: 10px;
 	text-align: right;
 	padding-right: 20px;
-}
+}*/
 
 .title {
 	font-size: 50px;
